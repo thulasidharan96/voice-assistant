@@ -17,7 +17,7 @@ jobs:
           distribution: temurin
           java-version: 17
       - run: corepack enable
-      - run: pnpm install --no-frozen-lockfile
+      - run: pnpm install --frozen-lockfile
       - run: pnpm --filter mobile android
       - uses: actions/upload-artifact@v4
         with:
