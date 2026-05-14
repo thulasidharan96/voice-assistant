@@ -12,10 +12,10 @@ LibreAssistant Mobile is a privacy-first, modular, open-source cross-platform as
 - Security package for redaction, permission decisions, and provider config validation
 - Optional Fastify backend server
 - Privacy, threat model, governance, roadmap, and release policy docs
-- CI/CD workflows (CI, Android build placeholder, CodeQL, release placeholder)
+- CI/CD workflows (CI, Android build, CodeQL, release placeholder)
 
 ## Monorepo Layout
-- `apps/mobile` React Native app foundation
+- `apps/mobile` React Native CLI app (Android runnable)
 - `apps/server` Optional backend
 - `apps/docs` Docs app placeholder
 - `packages/*` Shared assistant packages
@@ -34,6 +34,7 @@ pnpm build
 
 ## Mobile
 ```bash
+pnpm --filter mobile start
 pnpm --filter mobile android
 pnpm --filter mobile ios
 ```

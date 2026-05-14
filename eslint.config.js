@@ -31,6 +31,22 @@ export default [
     }
   },
   {
+    files: ['**/*.config.js', '**/babel.config.js', '**/metro.config.js', '**/jest.config.js'],
+    languageOptions: {
+      globals: {
+        ...globals.node
+      }
+    }
+  },
+  {
+    files: ['**/__tests__/**/*.{js,ts,tsx}', '**/*.{test,spec}.{js,ts,tsx}'],
+    languageOptions: {
+      globals: {
+        ...globals.jest
+      }
+    }
+  },
+  {
     ignores: ['**/dist/**', '**/node_modules/**', 'android/**', 'ios/**']
   }
 ];
