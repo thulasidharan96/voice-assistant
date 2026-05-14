@@ -1,0 +1,27 @@
+{
+  "name": "mobile",
+  "version": "0.1.0",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "android": "echo 'React Native Android placeholder command'",
+    "ios": "echo 'React Native iOS placeholder command'",
+    "start": "echo 'React Native start placeholder'",
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "lint": "eslint src --ext .ts,.tsx",
+    "test": "vitest run --passWithNoTests"
+  },
+  "dependencies": {
+    "@libreassistant/ai": "workspace:*",
+    "@libreassistant/core": "workspace:*",
+    "@libreassistant/plugins": "workspace:*",
+    "@libreassistant/security": "workspace:*",
+    "@libreassistant/speech": "workspace:*",
+    "@libreassistant/storage": "workspace:*",
+    "@libreassistant/ui": "workspace:*",
+    "react": "^18.3.1",
+    "react-native": "^0.76.0",
+    "zustand": "^5.0.0"
+  }
+}

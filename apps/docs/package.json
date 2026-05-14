@@ -1,0 +1,13 @@
+{
+  "name": "docs",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node -e \"console.log('Docs dev placeholder')\"",
+    "build": "node -e \"console.log('Docs build placeholder')\"",
+    "typecheck": "node -e \"console.log('No docs typecheck yet')\"",
+    "lint": "node -e \"console.log('No docs lint yet')\"",
+    "test": "node -e \"console.log('No docs tests yet')\""
+  }
+}
