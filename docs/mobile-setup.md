@@ -3,6 +3,7 @@
 This document describes the mobile setup guidance for LibreAssistant Mobile.
 
 ## Summary
-- Privacy-first defaults
-- Modular architecture
-- Long-term maintainability
+- Install Node LTS, enable Corepack, and install dependencies with `pnpm install`
+- Run `pnpm --filter mobile android` or `pnpm --filter mobile ios` for platform builds
+- Configure provider credentials through secure storage abstractions (no hardcoded keys)
+- Validate local changes with `pnpm typecheck`, `pnpm lint`, and targeted tests
