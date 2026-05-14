@@ -1,8 +1,8 @@
 {
-  "extends": "../../tsconfig.base.json",
+  "extends": "@react-native/typescript-config/tsconfig.json",
   "compilerOptions": {
-    "jsx": "react-jsx",
-    "rootDir": "src"
+    "strict": true
   },
-  "include": ["src/**/*.ts", "src/**/*.tsx"]
+  "include": ["App.tsx", "src/**/*.ts", "src/**/*.tsx"],
+  "exclude": ["android", "ios", "node_modules"]
 }

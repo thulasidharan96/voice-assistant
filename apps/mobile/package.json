@@ -4,13 +4,14 @@
   "private": true,
   "main": "index.js",
   "scripts": {
-    "android": "echo 'React Native Android placeholder command'",
-    "ios": "echo 'React Native iOS placeholder command'",
-    "start": "echo 'React Native start placeholder'",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "clean:android": "cd android && ./gradlew clean",
     "build": "tsc -p tsconfig.json",
-    "typecheck": "tsc -p tsconfig.json --noEmit",
-    "lint": "eslint src --ext .ts,.tsx",
-    "test": "vitest run --passWithNoTests"
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint .",
+    "test": "jest"
   },
   "dependencies": {
     "@libreassistant/ai": "workspace:*",
@@ -20,8 +21,34 @@
     "@libreassistant/speech": "workspace:*",
     "@libreassistant/storage": "workspace:*",
     "@libreassistant/ui": "workspace:*",
-    "react": "^18.3.1",
-    "react-native": "^0.76.0",
+    "@react-navigation/bottom-tabs": "^6.6.1",
+    "@react-navigation/native": "^6.1.18",
+    "@react-navigation/native-stack": "^6.11.0",
+    "@tanstack/react-query": "^5.59.20",
+    "@react-native-voice/voice": "^3.2.4",
+    "react": "18.3.1",
+    "react-native": "0.76.0",
+    "react-native-gesture-handler": "^2.20.2",
+    "react-native-keychain": "^9.2.0",
+    "react-native-mmkv": "^2.12.2",
+    "react-native-permissions": "^4.1.5",
+    "react-native-reanimated": "^3.16.1",
+    "react-native-safe-area-context": "^4.11.0",
+    "react-native-screens": "^3.35.0",
+    "react-native-tts": "^4.1.1",
+    "react-native-vector-icons": "^10.2.0",
     "zustand": "^5.0.0"
+  },
+  "devDependencies": {
+    "@react-native-community/cli": "^15.0.0",
+    "@react-native-community/cli-platform-android": "^15.0.0",
+    "@react-native-community/cli-platform-ios": "^15.0.0",
+    "@react-native/babel-preset": "0.76.0",
+    "@react-native/metro-config": "0.76.0",
+    "@react-native/typescript-config": "0.76.0",
+    "eslint": "^9.13.0",
+    "jest": "^29.7.0",
+    "prettier": "^3.3.3",
+    "typescript": "^5.6.3"
   }
 }

@@ -7,11 +7,12 @@
   "license": "Apache-2.0",
   "packageManager": "pnpm@9.12.3",
   "scripts": {
-    "build": "turbo run build",
-    "lint": "turbo run lint",
-    "test": "turbo run test",
-    "typecheck": "turbo run typecheck",
-    "dev": "turbo run dev --parallel",
+    "dev": "turbo dev",
+    "build": "turbo build",
+    "typecheck": "turbo typecheck",
+    "lint": "turbo lint",
+    "test": "turbo test",
+    "clean": "turbo clean",
     "changeset": "changeset",
     "version-packages": "changeset version",
     "release": "changeset publish"
