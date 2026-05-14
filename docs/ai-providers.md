@@ -1,4 +1,4 @@
-# ai providers
+# AI Providers
 
 This document describes the ai providers guidance for LibreAssistant Mobile.
 

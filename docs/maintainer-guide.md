@@ -1,6 +1,6 @@
-# maintainer guide
+# Maintainer Guide
 
-This document describes the maintainer guide guidance for LibreAssistant Mobile.
+This document describes maintainer guidelines for LibreAssistant Mobile.
 
 ## Summary
 - Privacy-first defaults

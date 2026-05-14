@@ -1,4 +1,4 @@
-# privacy
+# Privacy
 
 This document describes the privacy guidance for LibreAssistant Mobile.
 

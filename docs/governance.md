@@ -1,4 +1,4 @@
-# governance
+# Governance
 
 This document describes the governance guidance for LibreAssistant Mobile.
 

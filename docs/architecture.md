@@ -1,4 +1,4 @@
-# architecture
+# Architecture
 
 This document describes the architecture guidance for LibreAssistant Mobile.
 

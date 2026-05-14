@@ -1,4 +1,4 @@
-# plugin development
+# Plugin Development
 
 This document describes the plugin development guidance for LibreAssistant Mobile.
 

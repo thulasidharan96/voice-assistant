@@ -1,4 +1,4 @@
-# mobile setup
+# Mobile Setup
 
 This document describes the mobile setup guidance for LibreAssistant Mobile.
 

@@ -1,4 +1,4 @@
-# getting started
+# Getting Started
 
 This document describes the getting started guidance for LibreAssistant Mobile.
 

@@ -1,4 +1,4 @@
-# contributing
+# Contributing
 
 This document describes the contributing guidance for LibreAssistant Mobile.
 
